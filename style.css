@@ -1,0 +1,47 @@
+.container, .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-height: 100vh;
+    margin: 0px;
+    gap: 100px;
+   
+}
+
+.box {
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgb(245, 245, 244);
+}
+
+.grid {
+    padding: 15px;
+    background-color: white;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+.reset {
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: rgb(221, 150, 109);
+    border-radius: 4px;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
